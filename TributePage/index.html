@@ -1,0 +1,73 @@
+<!-- La solucion tambien esta aqui: 
+    https://codepen.io/CodingUser2022Arg/pen/qBPpPxR*/
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+/* COLORES AL BACKGROUND */
+body {background-color: gray;}
+main {background-color: lightgray;}
+figure {background-color: blue;}
+p {color: white; 
+  display: flex; 
+  justify-content: center}
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: auto;
+}
+ul{margin-top: 25px; background-color: #33CCFF;}
+li{margin-bottom: 15px;}
+
+a:hover {
+    animation-name: changecolor;
+    animation-duration: 700ms;
+  }
+@keyframes changecolor {
+    75% {
+      color: orange;
+    }
+  100% {
+      color: red;
+    }
+  }
+</style>
+<body>
+
+    <main id= "main">
+        <h1 id="title">Guido van Rossum</h1>  
+        <figure id= "img-div">
+            <img id ="image" 
+                src="https://i.iinfo.cz/images/658/guido-van-rossum.jpg" 
+                alt="Foto de Perfil de Guido Van Rossum">
+            <figcaption id="img-caption">
+                <p>Este es el creador del lenguaje Python hablando en una conferencia para los estudiantes de la Universidad</p>
+            </figcaption>
+        </figure>  
+        <section id="tribute-info">
+            <h3>Biografia y datos interesantes</h3>
+            <ul>
+                <li>Guido van Rossum (Haarlem, Países Bajos, 31 de enero de 1956) es un informático,1​ conocido por ser el autor del lenguaje de programación Python. Nació y creció en los Países Bajos.</li>
+                <li>Es la primera persona en obtener el título BDFL (Benevolent Dictator for Life), cuyo título es otorgado a personajes importantes en el mundo del código abierto</li>
+                <li>En el año 2001 recibió el FSF Award for the Advancement of Free Software como reconocimiento por su trabajo</li>
+                <li>A lo largo de su vida ha trabajado tanto en la industria, ya mencionado en la introducción, como en diversos centros de investigación como el instituto holandés Centrum Wiskunde & Informática (CWI), el estadounidense Instituto Nacional de Estándares y Tecnología o la Corporación para las Iniciativas Investigadoras Nacionales en Reston, Virginia.</li>
+                <li>Casi un año después de estar retirado, Guido decide volver el 12/11/2020 para trabajar en la división de Desarrollo de la compañía Microsoft.</li>
+            </ul>
+        </section>
+        <a id= "tribute-link" target= "_blank" href="https://es.wikipedia.org/wiki/Guido_van_Rossum#Biograf%C3%ADa">Informacion Complementaria Sobre Guido!! </a>    
+    </main> 
+</body>
+</html>
+
+
+
+ 
+
